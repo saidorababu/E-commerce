@@ -1,0 +1,105 @@
+/* General container styling */
+.payment-status {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .payment-status h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .payment-status p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  /* Success section styling */
+  .success {
+    background-color: #e8f5e9;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #4caf50;
+    color: #4caf50;
+  }
+  
+  .success h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #388e3c;
+  }
+  
+  .success p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #388e3c;
+  }
+  
+  /* Failure section styling */
+  .failure {
+    background-color: #fbe9e7;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #f44336;
+    color: #f44336;
+  }
+  
+  .failure h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #d32f2f;
+  }
+  
+  .failure p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #d32f2f;
+  }
+  
+  /* Home Button Styling */
+  .home-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    .payment-status {
+      padding: 20px;
+    }
+  
+    .payment-status h2 {
+      font-size: 28px;
+    }
+  
+    .payment-status p {
+      font-size: 16px;
+    }
+  
+    .home-button {
+      padding: 12px 25px;
+      font-size: 16px;
+    }
+  }
+  

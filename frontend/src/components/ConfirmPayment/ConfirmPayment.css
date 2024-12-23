@@ -1,0 +1,148 @@
+/* General styling for the Confirm Payment page */
+.confirm-payment {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .confirm-payment h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .confirm-payment p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .order-summary {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-summary h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .order-summary p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .order-summary div {
+    margin-bottom: 10px;
+  }
+  
+  .payment-method, .upi-method {
+    margin: 15px 0;
+  }
+  
+  .payment-method span, .upi-method span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .payment-summary {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-summary h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .payment-summary p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .payment-summary .total-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff5722;
+  }
+  
+ 
+/* Payment Actions */
+.payment-actions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Back Button Styling */
+  .back-btn {
+    padding: 12px 25px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .back-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Pay Now Button Styling */
+  .pay-btn {
+    padding: 12px 25px;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 48%;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .pay-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Small screen styling */
+  @media (max-width: 600px) {
+    .confirm-payment {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    .payment-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .back-btn, .pay-btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }

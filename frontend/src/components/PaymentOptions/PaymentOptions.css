@@ -1,0 +1,147 @@
+/* Container for the payment options */
+.payment-options {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Payment method selection section */
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-method {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each radio button and its label */
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: #f7f7f7;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+  }
+  
+  label:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    color: white;
+  }
+  
+  /* UPI Options */
+  .upi-options {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .upi-btn {
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+    text-align: left;
+  }
+  
+  .upi-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  input[type="radio"]:checked + label + .upi-options .upi-btn:hover {
+    background-color: #d4e9d1;
+  }
+  
+  /* Payment actions buttons */
+  .payment-actions {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .cancel-btn, .proceed-btn {
+    padding: 14px 25px;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    width: 48%;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  .proceed-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Small screen styling */
+  @media (max-width: 600px) {
+    .payment-options {
+      padding: 20px;
+    }
+  
+    .payment-methods {
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    .cancel-btn, .proceed-btn {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .upi-options {
+      padding-left: 0;
+    }
+  
+    .upi-btn {
+      width: 100%;
+    }
+  }
+  

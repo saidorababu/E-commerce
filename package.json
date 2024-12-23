@@ -1,0 +1,26 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "private": true,
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install",
+    "start": "concurrently \"nodemon backend/server.js\" \"cd frontend && npm start\"",
+    "server": "nodemon backend/server.js",
+    "client": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  },
+  "description": "Setting up Backend:",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

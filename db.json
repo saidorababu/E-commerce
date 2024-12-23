@@ -1,0 +1,156 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "description": "Noise-canceling headphones with high-quality sound and long battery life.",
+        "price": 120,
+        "imageUrl": "images/headphones.jpeg",
+        "category": "Electronics",
+        "stock": 15,
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "name": "Smartphone 12 Pro",
+        "description": "High-end smartphone with a powerful camera and fast processor.",
+        "price": 999,
+        "imageUrl": "images/smartphone.jpeg",
+        "category": "Electronics",
+        "stock": 10,
+        "rating": 4.8
+      },
+      {
+        "id": 3,
+        "name": "Gaming Laptop",
+        "description": "Laptop designed for high performance and gaming.",
+        "price": 1500,
+        "imageUrl": "images/gaming laptop.jpeg",
+        "category": "Computers",
+        "stock": 5,
+        "rating": 4.7
+      },
+      {
+        "id": 4,
+        "name": "4K Ultra HD Smart TV",
+        "description": "Experience stunning picture quality with this 55-inch 4K TV.",
+        "price": 600,
+        "imageUrl": "images/TV.jpeg",
+        "category": "Electronics",
+        "stock": 8,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "name": "Wireless Mouse",
+        "description": "Compact and ergonomic wireless mouse with adjustable DPI.",
+        "price": 25,
+        "imageUrl": "images/mouse.jpeg",
+        "category": "Accessories",
+        "stock": 20,
+        "rating": 4.3
+      },
+      {
+        "id": 6,
+        "name": "Running Shoes",
+        "description": "Lightweight and comfortable running shoes for daily workouts.",
+        "price": 80,
+        "imageUrl": "images/shoes.jpeg",
+        "category": "Apparel",
+        "stock": 25,
+        "rating": 4.4
+      },
+      {
+        "id": 7,
+        "name": "Smartwatch",
+        "description": "Track your health, receive notifications, and much more.",
+        "price": 199,
+        "imageUrl": "images/smartwatch.jpeg",
+        "category": "Wearables",
+        "stock": 12,
+        "rating": 4.5
+      },
+      {
+        "id": 8,
+        "name": "Coffee Maker",
+        "description": "Automatic coffee maker with programmable settings.",
+        "price": 50,
+        "imageUrl": "images/coffee-maker.jpeg",
+        "category": "Kitchen",
+        "stock": 15,
+        "rating": 4.2
+      },
+      {
+        "id": 9,
+        "name": "Blender",
+        "description": "High-speed blender with multiple settings for smoothies and more.",
+        "price": 45,
+        "imageUrl": "images/blender.jpeg",
+        "category": "Kitchen",
+        "stock": 18,
+        "rating": 4.3
+      },
+      {
+        "id": 10,
+        "name": "Yoga Mat",
+        "description": "Non-slip yoga mat for your daily exercises.",
+        "price": 30,
+        "imageUrl": "images/yoga mat.jpeg",
+        "category": "Fitness",
+        "stock": 30,
+        "rating": 4.6
+      },
+      {
+        "id": 11,
+        "name": "Electric Kettle",
+        "description": "Quick-boil electric kettle with auto shut-off function.",
+        "price": 20,
+        "imageUrl": "images/kettle.jpeg",
+        "category": "Kitchen",
+        "stock": 25,
+        "rating": 4.5
+      },
+      {
+        "id": 12,
+        "name": "Portable Charger",
+        "description": "Compact and fast-charging portable power bank.",
+        "price": 40,
+        "imageUrl": "images/portable charger.jpeg",
+        "category": "Accessories",
+        "stock": 50,
+        "rating": 4.4
+      },
+      {
+        "id": 13,
+        "name": "Water Bottle",
+        "description": "Reusable water bottle, BPA-free and eco-friendly.",
+        "price": 15,
+        "imageUrl": "images/waterbottle.jpeg",
+        "category": "Fitness",
+        "stock": 35,
+        "rating": 4.6
+      },
+      {
+        "id": 14,
+        "name": "Bluetooth Speaker",
+        "description": "Portable speaker with high-quality sound and deep bass.",
+        "price": 60,
+        "imageUrl": "images/bluetooth speaker.jpeg",
+        "category": "Electronics",
+        "stock": 22,
+        "rating": 4.7
+      },
+      {
+        "id": 15,
+        "name": "Electric Toothbrush",
+        "description": "Advanced electric toothbrush with multiple brushing modes.",
+        "price": 35,
+        "imageUrl": "images/electric brush.jpeg",
+        "category": "Health",
+        "stock": 40,
+        "rating": 4.5
+      }
+    ],
+    "orders": []
+  }
+  
